@@ -1,0 +1,12 @@
+<html>
+
+<head>
+      <title> HEADER HTML QUE ES? </title>
+</head>
+
+<body>
+En informática, cabecera se refiere a la información suplementaria situada al principio de un bloque de información que va a ser almacenada o transmitida y que contiene información necesaria para el correcto tratamiento 
+del bloque de información.
+</body>
+
+</html>
