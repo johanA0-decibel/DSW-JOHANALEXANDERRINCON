@@ -2,54 +2,52 @@
 
 
 h1 {
-   font-family: shadows into light, cursive;
+   font-family: shadows into light, ;
     color:black;
     margin-left: 10px;
     font-size:20px;
     text-align: center;
 }
 h2 {
-    font-family: Indie Flower, cursive;
+    font-family: Indie Flower, ;
      color:black;
      margin-left: 10px;
      font-size:20px;
      text-align: left;
  }
  p {
-   font-family: Indie Flower, cursive;
+   font-family: Indie Flower, ;
     color:black;
    
 }
 
- 
- .navegacion {
-    width: 80%;
-    
- }
 
  .navegacion nav {
-    width: 95%;
-    max-width: 1100%;
+    width: 100%;
+    max-width: 1000%;
     background: white;
-    margin: 10px auto;
+    margin: 100px auto;
  }
 
  .navegacion nav ul{
     list-style: none;
     position: relative;
-    
-   
  }
+ 
+
+
  .navegacion nav > ul > li{
   display: inline-block;
-  
-  
+  position: relative;
+
 }
+
 .navegacion nav ul li a{
-   color: rgb(0, 0, 0);
+   color: rgb(5, 4, 4);
    text-decoration: none;
    display: block;
-  padding-left: 105px;
+  padding-left: 80px;
+  list-style: none;
    
  }
  .navegacion nav > ul > li > a span{
@@ -58,37 +56,95 @@ h2 {
   bottom: -6;
   display: none;
 }
-.navegacion nav > ul > li:hover span{
+.navegacion nav > ul > li a:hover{
    display: block;
+   color: rgb(1, 185, 241);
+   transition: all .3s;
  }
- .navegacion nav  ul  li .submenu{
-   background:white;
-   padding: 25px;
-   position: absolute;
-   display: none;
+ .submenu{
+    position: absolute;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1,5s;
  }
+
+ .submenu li a{
+   display: block;
+   width: 120%;
+   padding: 15px;
+   color: brown;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-decoration:none;
+   
+}
+
 .navegacion nav  ul  li:hover .submenu{
    display: flex;
- }
-.navegacion nav  ul  li .submenu .submenu-items{
-    margin: 0px 20px;
- }
-.navegacion nav  ul  li .submenu .submenu-items a{
-      color: black;
-      text-decoration: none;
+   visibility: visible;
+   opacity: 1;
  }
  
-section {
-   padding-top: 70px;
-   margin-left: 140px;
-   margin-right: 140px;
- }
- aside{
-   padding-top: 70px;
-   margin-left: 340px;
-   
- }
+
+ 
+
  p div  aside{
   list-style: square;
    
  }
+
+ .contenedor{
+   width: 100%;
+   max-width: 1000%;
+   margin: auto;
+   overflow:hidden;  
+  }
+ header{
+  margin: 25px o;  
+  }
+  header h1{
+   color: #fff;  
+   padding: 20px 0;
+   text-align: center;
+   }
+   .main{
+    width: 70%;
+    background: cyan;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+   }
+   footer img{
+      width: 100%;
+      height: auto;
+     }
+   aside{
+      width: 30%;
+      padding: 20px;
+      box-sizing: border-box;
+      background: rgb(224, 174, 79);
+      float: left;
+     }
+     footer{
+      clear: both;
+      float: left;
+      margin-top: 0,5px;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 10px;
+      color:white;
+      background: white;
+      
+     }
+@media screen and (max-width: 800px){
+   .main{
+      width: 100%;
+   }
+   aside{
+      width: 100%;
+   }
+   footer{
+      width: 100%;
+   }
+}
+   
