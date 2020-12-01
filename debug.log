@@ -1,0 +1,5 @@
+[1130/095652.606:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\A0_Decibel\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\0b124a14-d394-4847-95de-03d7b20479fe: El sistema no puede encontrar la ruta especificada. (0x3)
+[1130/095652.707:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\A0_Decibel\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\145b0104-df10-41d7-98ec-180717cf6c86: El sistema no puede encontrar la ruta especificada. (0x3)
+[1130/095652.711:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\A0_Decibel\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\729474b3-f411-45c9-bae4-0c3ba3d96c25: El sistema no puede encontrar la ruta especificada. (0x3)
+[1130/095652.780:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\A0_Decibel\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\d8d21e1a-ac84-4ff9-98d3-f51fa6587cb0: El sistema no puede encontrar la ruta especificada. (0x3)
+[1130/095652.780:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
