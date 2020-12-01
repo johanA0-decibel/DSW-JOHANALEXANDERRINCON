@@ -154,7 +154,7 @@ h2 {
       font-size: 30px;
       cursor: pointer;
    }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 568px){
 
    .main{
       width: 100%;
@@ -171,6 +171,9 @@ h2 {
    .iframe{
       width: 100%;
       }
+      .navegacion {
+         width: 80%;
+         }
 
 }
    
